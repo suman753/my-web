@@ -40,7 +40,7 @@ const mywork_data = [
         w_no:6,
         w_name:"Sorting-Visulizer",
         w_img:project6_img,
-        w_link:""
+        w_link:"https://sortingvisualizer-wheat.vercel.app/"
     },
 ]
  
