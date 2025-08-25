@@ -1,4 +1,4 @@
-import project1_img from '../assets/quick_chat.png'
+import project1_img from '../assets/Quick_chat.png'
 import project2_img from '../assets/project_2.svg'
 import project3_img from '../assets/project_3.svg'
 import project4_img from '../assets/whatsapp_chat_analyzer.png'
