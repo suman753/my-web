@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Transparent background -->
+  <rect width="300" height="300" fill="none"/>
+  
+  <!-- Gradient defs to match the site's accent colors -->
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DA7C25"/>
+      <stop offset="100%" stop-color="#B923E1"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0" y1="300" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#B923E1"/>
+      <stop offset="100%" stop-color="#DA7C25"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.25"/>
+    </filter>
+    <clipPath id="rounded">
+      <rect x="30" y="30" width="240" height="240" rx="34" ry="34"/>
+    </clipPath>
+  </defs>
+
+  <!-- Outer rounded border with gradient stroke -->
+  <rect x="30" y="30" width="240" height="240" rx="34" ry="34"
+        fill="rgba(22,21,19,0)" stroke="url(#grad)" stroke-width="4" filter="url(#shadow)"/>
+  
+  <!-- Subtle inner gradient ring -->
+  <rect x="42" y="42" width="216" height="216" rx="28" ry="28"
+        fill="none" stroke="url(#grad2)" stroke-opacity="0.35" stroke-width="2"/>
+  
+  <!-- Monogram "SD" -->
+  <g clip-path="url(#rounded)">
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+          font-family="Poppins, Montserrat, Arial, sans-serif"
+          font-size="112" font-weight="800" letter-spacing="1"
+          fill="#ffffff">
+      SD
+    </text>
+    
+    <!-- Accent underline -->
+    <line x1="90" y1="182" x2="210" y2="182" stroke="url(#grad)" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>
