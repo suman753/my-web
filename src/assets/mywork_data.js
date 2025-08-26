@@ -10,7 +10,7 @@ const mywork_data = [
         w_no:1,
         w_name:"Quick-Chat",
         w_img:project1_img,
-        w_link:"https://www.youtube.com/"
+        w_link:"https://quick-chat-sand-seven.vercel.app/"
     },
     {
         w_no:2,
