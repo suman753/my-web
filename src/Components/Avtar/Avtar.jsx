@@ -11,7 +11,7 @@ const Avtar = () => {
         <p>I love coding, solving problems, and creating amazing web experiences. <br></br> MERN & Django Enthusiast. </p>
         <div className="avtar-action">
             <div className="avtar-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
-            <div className="avtar-resume"><a href='https://drive.google.com/file/d/17NSxMgAhBf7tBcjfSajplZHhBlqfRHX3/view?usp=sharing'> My Resume</a></div>
+            <div className="avtar-resume"><a href='https://drive.google.com/file/d/1V4LkheuF0QD8QHnILLiaUoVS24oVw5Lr/view?usp=sharing'> My Resume</a></div>
         </div>
     </div>
   )

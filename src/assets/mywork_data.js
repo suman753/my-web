@@ -1,6 +1,6 @@
 import project1_img from '../assets/Quick_chat.png'
 import project2_img from '../assets/project_2.svg'
-import project3_img from '../assets/project_3.svg'
+import project3_img from '../assets/notyet.png'
 import project4_img from '../assets/whatsapp_chat_analyzer.png'
 import project5_img from '../assets/sudoku.png'
 import project6_img from '../assets/sorting_visulizer.png'
@@ -15,7 +15,7 @@ const mywork_data = [
     {
         w_no:2,
         w_name:"PDD-System",
-        w_img:project2_img,
+        w_img:project3_img,
         w_link:""
     },
     {

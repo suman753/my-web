@@ -5,6 +5,7 @@ import bird1 from '../../assets/bird1.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
+import {Link} from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -29,7 +30,7 @@ const Navbar = () => {
         <li className={menu==="work" ? "active" : ""}>{menu==="work"?<img src={bird1} alt=''/>:<></>}<AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=>setMenu("work")}>PORTFOLIO</p></AnchorLink></li>
         <li className={menu==="contact" ? "active" : ""}>{menu==="contact"?<img src={bird1} alt=''/>:<></>}<AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>CONTACT</p></AnchorLink></li>
       </ul>
-      <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Contact With Me</AnchorLink></div>
+      <div className="nav-connect"><a className='anchor-link' href='/Certificate' target="_blank" rel="">Certificate</a></div>
 
       
     </div>
