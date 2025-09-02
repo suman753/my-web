@@ -61,8 +61,16 @@
         margin: 20px 20px;
     }
     .nav-connect{
-        display: none;
-    }
+    padding: 6px 15px;
+    background: linear-gradient(267deg, #fbfbfc 0.36%, #0c80e4 102.06%);
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px; 
+    color: white;
+    transition: all 0.3s ease;
+    margin-right: 40px;
+
+}
     .nav-menu-open{
         display: block;
         position: absolute;
