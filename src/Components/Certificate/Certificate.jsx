@@ -5,6 +5,7 @@ import "./Certificate.css";
 import cert1 from "../../assets/cert1.png";
 import cert2 from "../../assets/cert2.png";
 import cert3 from "../../assets/cert3.png";
+import cert4 from "../../assets/cert4.jpeg";
 
 const Certificate = () => {
   return (
@@ -12,6 +13,14 @@ const Certificate = () => {
       <h1 className="certificate-title">My Certificates</h1>
 
       <div className="certificate-grid">
+        <div className="certificate-card">
+            <a href="https://coursera.org/share/654f2127f6c8de3c9d158ee1b3f2e91f">
+          <img src={cert4} alt="Certificate 4" />
+          </a>
+          <p>Google Data Analytics Professional Certificate</p>
+          <p>Google</p>
+        </div>
+
         <div className="certificate-card">
             <a href="https://coursera.org/share/fa049761c7e93431e8797dd8632d4be5">
           <img src={cert1} alt="Certificate 1" />
